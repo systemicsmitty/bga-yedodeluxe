@@ -1,8 +1,8 @@
-interface YedoDeluxeMasterSetPlayer extends Player {
+export interface YedoPlayer extends Player {
     energy: number; // any information you add on each result['players']
 }
 
-interface YedoDeluxeMasterSetGamedatas extends Gamedatas<YedoDeluxeMasterSetPlayer> {
+export interface YedoGamedatas extends Gamedatas<YedoPlayer> {
     // Add here variables you set up in getAllDatas
 }
    
